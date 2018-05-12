@@ -28,11 +28,27 @@
 		</dependency>
 
 		<dependency>
+			<groupId>fractal-viewer-javadoc</groupId>
+			<artifactId>fractal-viewer-javadoc</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/fractal-viewer-1.0-javadoc.jar</systemPath>
+		</dependency>
+
+		<dependency>
 			<groupId>raytracer</groupId>
 			<artifactId>raytracer</artifactId>
 			<version>1.0</version>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/lib/raytracer-1.0.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>raytracer-sources</groupId>
+			<artifactId>raytracer-sources</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/raytracer-1.0-sources.jar</systemPath>
 		</dependency>
 
 		<dependency>
